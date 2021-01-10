@@ -97,39 +97,46 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #2e2e1f;
   height: 100%;
+  width:100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: .8em;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
-  font-weight: 700;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
   display: flex;
-  width: 30%;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  background-color: #2e2e1f;
+  height: auto;
+  width: 30%;
+  border-right:.1em solid #acac86;
 }
 
 
-
+.wrapper span {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.3em;
+}
 
 /* ==========================================================================
    Helper classes
