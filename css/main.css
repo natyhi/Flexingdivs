@@ -97,37 +97,62 @@ textarea {
 
 
 html {
-  background-color: #2e2e1f;
+  background-color: #ffe6e6;
   height: 100%;
   width:100%;
 }
 
 body {
   font-family: 'Bodoni Moda', serif;
-  font-weight: 700;
-  padding: 2em;
-  font-size: .8em;
+  padding: 0 2em;
+  font-size: 1.3em;
   height: 100%;
+
+
+}
+
+header,
+footer {
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  background-color: #ff9999;
+  height: 250px;
+  width: 100%;
+}
+
+header,
+footer,
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.3em;
+  font-size: 1em;
   background-color: #2e2e1f;
-  height: auto;
+  height: 200px;
   width: 30%;
   border-right:.1em solid #acac86;
 }
